@@ -1,0 +1,86 @@
+body {
+    color: #0A3871;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 48px */
+    background: rgba(243, 245, 252, 1);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.container {
+    text-align: left;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.output-area textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: right;
+}
+.input-area textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: left;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.encrypt-btn, .decrypt-btn, .copy-btn {
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    font-size: 16px;
+}
+
+.encrypt-btn {
+    background: #0A3871;
+    color: #fff;
+    border: none;
+}
+
+.decrypt-btn {
+    background: #fff;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+}
+
+.copy-btn {
+    border-radius: 24px;
+    border: 1px solid var(--Dark-blue-dark-blue-300, #0A3871);
+}
+
+.output-area {
+    margin-top: 20px;
+    
+    
+}
+
+.validation-message {
+    color: red;
+    font-size: 14px;
+    
+}
+
+.project-info {
+    font-size: 10px;
+}
